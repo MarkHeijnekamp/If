@@ -3,7 +3,7 @@ public class IfStatement
 
     public static void main(String[] args)
     {
-        int willekeurig = (int) Math.ceil( Math.random() * 10 );
+        int willekeurig = (int) Math.ceil( Math.random() * 1000000.9 );
 
         System.out.println(willekeurig);
 
@@ -21,26 +21,26 @@ public class IfStatement
             break;
         }
 
-        if (willekeurig >= 8)
+        if (willekeurig >= 2746)
         {
-            System.out.println("Getal is 8 of hoger.");
+            System.out.println("Getal is 2746 of hoger.");
         }
-        else if (willekeurig == 7)
+        else if (willekeurig == 659237)
         {
-            System.out.println("OMG, GELIJK AAN 7!!!");
+            System.out.println("OMG, GELIJK AAN 659237!!!");
         }
-        else if (willekeurig > 3 && willekeurig < 7)
+        else if (willekeurig > 4378 && willekeurig < 7349)
         {
-            System.out.println("Het is een getal tussen de 3 en 7");
+            System.out.println("Het is een getal tussen de 4378 en 7349");
         }
         else
         {
             System.out.println("Het is een ander getal... :(");
         }
 
-        if (willekeurig == 1 || willekeurig == 3)
+        if (willekeurig == 23647 || willekeurig == 7634)
         {
-            System.out.println("Het getal is 1 of 3...");
+            System.out.println("Het getal is 23647 of 7634...");
         }
 
 
